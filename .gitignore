@@ -1,0 +1,30 @@
+# Ignorar executáveis/binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Ignorar o binário final da sua aplicação (exemplo: se o build gera um app chamado "meuapp")
+/meuapp
+
+# Ignorar pastas temporárias
+tmp/
+build/
+dist/
+
+# Cache do Go
+/go.sum.tmp
+*.tmp
+
+# Pastas de IDEs (VS Code, IntelliJ, etc)
+.vscode/
+.idea/
+
+# Pastas de dependências locais (opcional, só se não quiser versionar o vendor)
+vendor/
+
+# Arquivos de log
+*.log
